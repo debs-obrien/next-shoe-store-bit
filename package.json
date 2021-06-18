@@ -9,7 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@learn-bit-react/base-ui.styles.button": "^0.0.1",
+    "@learn-bit-react/base-ui.ui.button": "^1.0.2",
     "@learn-bit-react/base-ui.ui.heading": "^1.0.1",
+    "@learn-bit-react/ecommerce.ui.header": "^1.0.3",
     "@learn-bit-react/shoe-store.ui.pages.home-shoes": "^1.0.4",
     "next": "11.0.0",
     "next-transpile-modules": "^8.0.0",

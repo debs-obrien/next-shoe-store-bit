@@ -89,11 +89,20 @@
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-9.2.0.tgz#f3933a44e365864f4dad5db94158106d511e8131"
   integrity sha512-sqKVVVOe5ivCaXDWivIJYVSaEgdQK9ul7a4Kity5Iw7u9+wBAPbX1RMSnLLmp7O4Vzj0WOWwMAJsTL00xwaNug==
 
-"@learn-bit-react/base-ui.styles.button@0.0.1":
+"@learn-bit-react/base-ui.styles.button@0.0.1", "@learn-bit-react/base-ui.styles.button@^0.0.1":
   version "0.0.1"
   resolved "https://node.bit.dev/@learn-bit-react/base-ui.styles.button/-/@learn-bit-react-base-ui.styles.button-0.0.1.tgz#9efa37038c68c99cd9aebdbe02e8e16cca8e6e80"
   integrity sha1-nvo3A4xoyZzZrr2+AujhbMqOboA=
   dependencies:
+    core-js "^3.0.0"
+
+"@learn-bit-react/base-ui.ui.button@1.0.2", "@learn-bit-react/base-ui.ui.button@^1.0.2":
+  version "1.0.2"
+  resolved "https://node.bit.dev/@learn-bit-react/base-ui.ui.button/-/@learn-bit-react-base-ui.ui.button-1.0.2.tgz#d966b77757352ee180e274635f2c02b8ccaa38a8"
+  integrity sha1-2Wa3d1c1LuGA4nRjXywCuMyqOKg=
+  dependencies:
+    "@learn-bit-react/base-ui.styles.button" "0.0.1"
+    classnames "2.3.1"
     core-js "^3.0.0"
 
 "@learn-bit-react/base-ui.ui.card@1.0.1":
@@ -156,6 +165,14 @@
     classnames "2.3.1"
     core-js "^3.0.0"
 
+"@learn-bit-react/base-ui.ui.nav@1.0.1":
+  version "1.0.1"
+  resolved "https://node.bit.dev/@learn-bit-react/base-ui.ui.nav/-/@learn-bit-react-base-ui.ui.nav-1.0.1.tgz#fa1b9479f8b89b9f95c997406d5167fb896d0639"
+  integrity sha1-+huUefi4m5+VyZdAbVFn+4ltBjk=
+  dependencies:
+    classnames "2.3.1"
+    core-js "^3.0.0"
+
 "@learn-bit-react/base-ui.ui.text@1.0.1":
   version "1.0.1"
   resolved "https://node.bit.dev/@learn-bit-react/base-ui.ui.text/-/@learn-bit-react-base-ui.ui.text-1.0.1.tgz#73b75c3867877483a6538d09da91c2deb463bff0"
@@ -164,10 +181,39 @@
     classnames "2.3.1"
     core-js "^3.0.0"
 
+"@learn-bit-react/base-ui.ui.theme-toggler@1.0.2":
+  version "1.0.2"
+  resolved "https://node.bit.dev/@learn-bit-react/base-ui.ui.theme-toggler/-/@learn-bit-react-base-ui.ui.theme-toggler-1.0.2.tgz#be50f5468283ad34a15af0463c3560cab048a746"
+  integrity sha1-vlD1RoKDrTShWvBGPDVgyrBIp0Y=
+  dependencies:
+    "@learn-bit-react/base-ui.ui.button" "1.0.2"
+    core-js "^3.0.0"
+
 "@learn-bit-react/ecommerce.entity.product@1.0.0":
   version "1.0.0"
   resolved "https://node.bit.dev/@learn-bit-react/ecommerce.entity.product/-/@learn-bit-react-ecommerce.entity.product-1.0.0.tgz#8aaf4ce69d83771a03f62b7b28892881a3ff3cdf"
   integrity sha1-iq9M5p2DdxoD9it7KIkogaP/PN8=
+
+"@learn-bit-react/ecommerce.ui.header@^1.0.3":
+  version "1.0.3"
+  resolved "https://node.bit.dev/@learn-bit-react/ecommerce.ui.header/-/@learn-bit-react-ecommerce.ui.header-1.0.3.tgz#c9196383fb1b7b5387fa62c4dbdf4bbb62d347f1"
+  integrity sha1-yRljg/sbe1OH+mLE299Lu2LTR/E=
+  dependencies:
+    "@learn-bit-react/base-ui.ui.img" "1.0.1"
+    "@learn-bit-react/base-ui.ui.link" "1.0.3"
+    "@learn-bit-react/base-ui.ui.nav" "1.0.1"
+    "@learn-bit-react/base-ui.ui.theme-toggler" "1.0.2"
+    "@learn-bit-react/ecommerce.ui.logo-text" "1.0.1"
+    classnames "2.3.1"
+    core-js "^3.0.0"
+
+"@learn-bit-react/ecommerce.ui.logo-text@1.0.1":
+  version "1.0.1"
+  resolved "https://node.bit.dev/@learn-bit-react/ecommerce.ui.logo-text/-/@learn-bit-react-ecommerce.ui.logo-text-1.0.1.tgz#d62913fde1de420adb191f737ea0388f2d3800d2"
+  integrity sha1-1ikT/eHeQgrbGR9zfqA4jy04ANI=
+  dependencies:
+    classnames "2.3.1"
+    core-js "^3.0.0"
 
 "@learn-bit-react/ecommerce.ui.product.available-colors@0.0.1":
   version "0.0.1"

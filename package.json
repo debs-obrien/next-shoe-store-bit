@@ -12,6 +12,7 @@
     "@learn-bit-react/base-ui.ui.heading": "^1.0.1",
     "@learn-bit-react/shoe-store.ui.pages.home-shoes": "^1.0.4",
     "next": "11.0.0",
+    "next-transpile-modules": "^8.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "sass": "^1.35.1"
